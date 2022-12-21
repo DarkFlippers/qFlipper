@@ -45,7 +45,7 @@ Note: STM32 Bootloader driver is not provided in this repository.
 #### Docker build (AppImage, official)
 
 ```sh
-docker-compose exec dev ./build_linux.sh
+docker-compose run dev ./build_linux.sh
 ```
 
 #### Standalone build
